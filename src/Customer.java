@@ -47,6 +47,9 @@ public class Customer {
                 System.out.println("[바리스타] 원두가 없어서 주문이 불가합니다.");
                 money = money + price;
                 System.out.println("[바리스타]가 " + price + "원을 환불했습니다.");
+                System.out.println( name + "[손님] 환불받은 돈은 지갑에 넣었습니다.");
+                System.out.println( name + "[손님] 현재 잔액은" + money + "원 입니다.");
+                return;
             }
             takeCoffee(coffee);
         }
