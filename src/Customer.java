@@ -34,7 +34,6 @@ public class Customer {
     public void order(Barista barista, String menuName)
     {
         System.out.println(name + " " + menuName + "를 한 잔 주세요");
-        int price = barista.getCoffeePrice();
         System.out.println("[바리스타] 커피 가격은 " + price + "입니다.");
 
         int paymentCheck = pay(price);
