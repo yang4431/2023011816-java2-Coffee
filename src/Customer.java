@@ -42,7 +42,6 @@ public class Customer {
             return;
         else if(paymentCheck == 0) {
             System.out.println(name + price +"원을 지불했습니다.");
-            String coffee = barista.takeOrder(menuName, price);
             if(barista.checkCoffee() == false) {
                 System.out.println("[바리스타] 원두가 없어서 주문이 불가합니다.");
                 money = money + price;
