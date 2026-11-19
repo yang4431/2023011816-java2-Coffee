@@ -51,6 +51,7 @@ public class Customer {
                 System.out.println( name + "[손님] 현재 잔액은" + money + "원 입니다.");
                 return;
             }
+            String coffee = barista.takeOrder(menuName, price);
             takeCoffee(coffee);
         }
     }
